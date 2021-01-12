@@ -1,8 +1,5 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.container-footer {
+  background-color: #304268;
+  display: flex;
+  flex-direction: row;
 }
