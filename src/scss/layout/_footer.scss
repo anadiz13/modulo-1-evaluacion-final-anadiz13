@@ -1,6 +1,8 @@
+.footer {
+  background-color: #304268;
+}
 .container-footer {
   height: 100vh;
-  background-color: #304268;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -12,11 +14,13 @@
 .button-footer {
   text-decoration: none;
   width: 20px;
-  padding: 0 30px 0 130px;
+  padding: 15px 38px 10px 17px;
+  display: block;
   border-radius: 50%;
   font-size: 20px;
   color: white;
   background: #ffffff;
+  margin: 0 auto;
 }
 .articles {
   font-family: Roboto;
@@ -51,4 +55,29 @@
   font-size: 14px;
   color: #ffffff;
   margin-bottom: 45px;
+}
+@media all and (min-width: 728px) {
+  .container-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright {
+    padding-right: 39px;
+  }
+  .components {
+    padding-right: 39px;
+    padding-bottom: 142px;
+  }
+  .articles {
+    padding-left: 30px;
+  }
+
+  .redes-sociales {
+    padding-right: 39px;
+    padding-left: 30px;
+    padding-top: 45px;
+    padding-bottom: 105px;
+  }
 }

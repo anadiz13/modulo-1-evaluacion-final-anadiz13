@@ -10,7 +10,7 @@
   margin-top: 30px;
   margin-bottom: 45px;
   font-size: 24px;
-  font-family: RobotoSlab-Bold;
+  font-family: "Roboto Slab";
   color: black;
   span.phone::before {
     content: "\A";
@@ -23,7 +23,7 @@
   }
 }
 .title-reasons {
-  font-family: RobotoSlab-Bold;
+  font-family: "Roboto Slab";
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -57,5 +57,21 @@
   .container-reasons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .reasons {
+    width: 100%;
+  }
+
+  .reason-sections {
+    width: 33%;
+  }
+
+  .title-reasons {
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
   }
 }
