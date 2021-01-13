@@ -1,5 +1,4 @@
 .container-reasons {
-  width: 100wh;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,6 +12,10 @@
   font-size: 24px;
   font-family: RobotoSlab-Bold;
   color: black;
+  span.phone::before {
+    content: "\A";
+    white-space: pre;
+  }
   text-align: center;
   transition: color ease 0.5s;
   &:hover {
@@ -31,8 +34,28 @@
   font-size: 18px;
   text-align: center;
   margin-bottom: 45px;
+  display: block;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .button-more-reasons {
+  text-decoration: none;
+  line-height: 40px;
+  height: 45px;
+  padding: 0 30px 0 25px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Roboto-Medium;
+  color: white;
+  background: #f26002;
+  text-transform: capitalize;
+  margin-bottom: 53px;
   margin-top: 45px;
   margin-bottom: 60px;
+}
+@media all and (min-width: 728px) {
+  .container-reasons {
+    display: flex;
+    flex-direction: row;
+  }
 }
