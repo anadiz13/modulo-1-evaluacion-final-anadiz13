@@ -1,5 +1,5 @@
 .footer {
-  background-color: #304268;
+  background-color: #6495ed;
 }
 .container-footer {
   height: 100vh;
@@ -27,8 +27,9 @@
   font-size: 16px;
   list-style-type: none;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: black;
 }
 
 .redes-sociales {
@@ -36,11 +37,12 @@
   list-style-type: none;
   text-decoration: none;
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 .link-footer {
   font-family: Roboto;
-  color: #ffffff;
+  color: black;
   list-style-type: none;
   text-decoration: none;
   text-transform: uppercase;
@@ -48,20 +50,26 @@
 .copyright {
   font-family: Roboto;
   font-size: 14px;
-  color: #ffffff;
+  color: black;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 .components {
   font-family: Roboto;
   font-size: 14px;
-  color: #ffffff;
+  color: black;
+  margin-top: 45px;
   margin-bottom: 45px;
 }
 @media all and (min-width: 728px) {
   .container-footer {
+    height: 100vh;
+    text-decoration: none;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 0 0 0;
   }
   .copyright {
     padding-right: 39px;
@@ -79,5 +87,16 @@
     padding-left: 30px;
     padding-top: 45px;
     padding-bottom: 105px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .container-footer {
+    height: 100vh;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 0;
   }
 }
